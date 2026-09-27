@@ -1,48 +1,66 @@
-# Practical-2
+# Practical-2: Activity Life Cycle & Basic UI
 
-## AIM
+## AIM & Objective
 
-Create an Android application to demonstrate **Activity Life Cycle functions** and **Basic UI components**.
+Create an Android Application to demonstrate **Activity Life Cycle** functions (`onCreate`, `onStart`, `onResume`, `onPause`, `onStop`, `onRestart`, and `onDestroy`) and **Basic UI** styling.
 
----
-
-## Objective
-
-Create an Android Activity that displays **"Hello World"** in the center of the Activity screen.
-
-The application should have:
-
-- Yellow background
-- Holo Blue text color
-- 27sp text size
-- Bold and italic text style
-- Activity Life Cycle demonstration
-- Log messages in Logcat
-- Toast messages
-- Snackbar messages
+The application demonstrates Activity Life Cycle transitions using **Logcat**, **Toast**, and **Snackbar** messages.
 
 ---
 
-## Requirements
+## Output Screenshots
 
-The application demonstrates the following Android concepts:
+### 1. Logcat Output (Lifecycle Sequence)
 
-- TextView
-- TextView properties
-- Toast Message
-- Snackbar Message
-- Log Message
-- Logcat
-- Activity Life Cycle
-- ConstraintLayout
-- Android built-in colors
-- Generating an ID for TextView
+The Activity Life Cycle methods are displayed in Android Studio Logcat.
+
+**Paste your Logcat screenshot below:**
+
+<!-- PASTE YOUR LOGCAT SCREENSHOT HERE -->
 
 ---
 
-## Activity UI
+### 2. Toast Message Simulation
 
-The main Activity contains a `TextView` displaying:
+The application displays Toast messages for different Activity Life Cycle methods.
+
+| **onCreate** | **onResume** | **onDestroy** |
+|---|---|---|
+| **Paste onCreate Screenshot Here** | **Paste onResume Screenshot Here** | **Paste onDestroy Screenshot Here** |
+
+---
+
+### 3. Snackbar Message Simulation
+
+The application displays Snackbar messages for different Activity Life Cycle methods.
+
+| **onStart** | **onResume** | **onRestart** |
+|---|---|---|
+| **Paste onStart Screenshot Here** | **Paste onResume Screenshot Here** | **Paste onRestart Screenshot Here** |
+
+---
+
+## UI Implementation Details
+
+- **Layout:** `ConstraintLayout`
+- **Background:** Yellow (`#FFFF00`)
+- **TextView Text:** `Hello World`
+- **Text Alignment:** Center
+- **Text Color:** Holo Blue Bright (`@android:color/holo_blue_bright`)
+- **Text Size:** `27sp`
+- **Text Style:** **Bold & Italic**
+
+---
+
+## Activity Life Cycle
+
+The following Activity Life Cycle methods are demonstrated:
 
 ```text
-Hello World
+onCreate()
+onStart()
+onResume()
+onPause()
+onStop()
+onRestart()
+onDestroy()
